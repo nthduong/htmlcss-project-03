@@ -272,12 +272,63 @@ header {
 
 .services__list {
     flex-grow: 1;
-    justify-content: flex-end;
+    margin-left: 130px;
 }
 
 .services-item {
+    display: flex;
     padding: 21px 18px 20px 22px;
     border-radius: 10px;
-  
+    transition: 0.25s ;
+}
+
+.services-item:hover {
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.services-item:hover .services-item__icon {
+    background: #2E80CE;
+    color: #fff;
+}
+
+.services-item__icon {
+    background: #eff6fd;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--color-bg);
+    transition: 0.25s ;
+    box-shadow: 0px 8px 16px 0px rgba(40, 155, 222, 0.15);
+}
+
+.services-item__body {
+    margin-left: 19px;
+}
+
+.services-item__heading {
+    color: var(--color-bg);
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.services-item__desc-wrap {
+    width: 351px;
+    margin-top: 8px;
+}
+
+.services-item__desc {
+    color: #575f66;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.services__btn {
+    margin-top: 55px;
 }
