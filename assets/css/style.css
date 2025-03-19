@@ -279,7 +279,7 @@ header {
     display: flex;
     padding: 21px 18px 20px 22px;
     border-radius: 10px;
-    transition: 0.25s ;
+    transition: 0.25s;
 }
 
 .services-item:hover {
@@ -288,7 +288,7 @@ header {
 }
 
 .services-item:hover .services-item__icon {
-    background: #2E80CE;
+    background: #2e80ce;
     color: #fff;
 }
 
@@ -301,7 +301,7 @@ header {
     justify-content: center;
     border-radius: 50%;
     color: var(--color-bg);
-    transition: 0.25s ;
+    transition: 0.25s;
     box-shadow: 0px 8px 16px 0px rgba(40, 155, 222, 0.15);
 }
 
@@ -331,4 +331,58 @@ header {
 
 .services__btn {
     margin-top: 55px;
+}
+
+/* work */
+
+.work {
+    padding: 100px 0 116px 0;
+    background: #f6fbff;
+}
+
+.work-list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-item {
+    padding: 42px;
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+    transition: 0.25s;
+}
+
+.work-item:hover {
+    border: 16px solid #2e80ce;
+    transform: translateY(-16px);
+}
+
+.work-item__heading {
+    margin-top: 18px;
+    color: var(--color-bg);
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38; /* 138.462% */
+}
+
+.work-item__desc {
+    width: 254px;
+    margin-top: 28px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.work__more {
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.work-item:hover .work__more {
+    color: #2e80ce;
 }
