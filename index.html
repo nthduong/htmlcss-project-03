@@ -83,16 +83,13 @@
         />
         <meta name="theme-color" content="#ffffff" />
         <!-- embed fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <body style="height: 5000px">
+    <body style="height: 10000px">
         <header class="header">
             <div class="contain">
                 <!-- header top -->
@@ -387,7 +384,6 @@
         </section>
 
         <!-- member -->
-
         <section class="member">
             <div class="contain">
                 <header class="member__header">
@@ -449,9 +445,9 @@
                     </article>
                 </div>
 
-                <div class="member__control">
+                <div class="member__control control">
                     <!-- previous -->
-                    <button class="member__control-btn">
+                    <button class="control__btn">
                         <svg
                             width="6"
                             height="12"
@@ -469,9 +465,9 @@
                     </button>
 
                     <!-- next -->
-                    <button class="member__control-btn">
+                    <button class="control__btn">
                         <svg
-                            class="member__control-next-icon"
+                            class="control-next-icon"
                             width="6"
                             height="12"
                             viewBox="0 0 6 12"
@@ -486,6 +482,139 @@
                             />
                         </svg>
                     </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- install -->
+        <section class="install">
+            <div class="contain">
+                <div class="install__body">
+                    <div class="install__inner">
+                        <figure>
+                            <img
+                                
+                                src="./assets/img/mobile.png"
+                                alt="Take back your smile with dentures"
+                                class="install__image"
+                            />
+                        </figure>
+
+                        <div class="install__content">
+                            <h2 class="section-heading install__heading">
+                                Take back your smile with dentures
+                            </h2>
+                            <p class="section-desc install__desc">
+                                If you’re missing multiple teeth due to decay,
+                                injury, or the natural aging process, dentures
+                                might be the perfect solution.
+                            </p>
+
+                            <div class="install__row">
+                                <button class="install__btn">
+                                    <img src="./assets/img/ggplay.svg" alt="" />
+                                </button>
+                                <button class="install__btn">
+                                    <img
+                                        src="./assets/img/appstore.svg"
+                                        alt=""
+                                    />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- news -->
+        <section class="news">
+            <div class="contain">
+                <div class="news__inner">
+                    <div class="news__content">
+                        <h2 class="section-heading">
+                            Read Latest News & Events.
+                        </h2>
+                        <a href="" class="news__link">Read All Blog</a>
+
+                        <div class="control">
+                    <!-- previous -->
+                    <button class="control__btn">
+                        <svg
+                            width="6"
+                            height="12"
+                            viewBox="0 0 6 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M5.5 1L0.5 6L5.5 11"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </button>
+
+                    <!-- next -->
+                    <button class="control__btn">
+                        <svg
+                            class="control-next-icon"
+                            width="6"
+                            height="12"
+                            viewBox="0 0 6 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M5.5 1L0.5 6L5.5 11"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </button>
+                    </div>
+
+
+                </div>
+
+                <div class="news__list">
+                    <!-- news item1 -->
+                    <article class="news-item">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1559265053-e26116164bde?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="news-item__image">
+                        </figure>
+
+                        <div class="news-item__content">
+                            <h3 class="news-item__heading">
+                                Key Considerations for Regulatory Compliant.
+                            </h3>
+                            <p class="news-item__desc">
+                                It’s easy to think about medical care from a narrow perspective. You go to the hospital.
+                            </p>
+
+                            <a href="#!" class="new-item__link">Learn More</a>
+                        </div>
+                    </article>
+
+                     <!-- news item2 -->
+                    <article class="news-item">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1555633514-9433624af83a?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="news-item__image">
+                        </figure>
+
+                        <div class="news-item__content">
+                            <h3 class="news-item__heading">
+                                Key Considerations for Regulatory Compliant.
+                            </h3>
+                            <p class="news-item__desc">
+                                It’s easy to think about medical care from a narrow perspective. You go to the hospital.
+                            </p>
+
+                            <a href="#!" class="new-item__link">Learn More</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
